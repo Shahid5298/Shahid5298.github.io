@@ -440,7 +440,7 @@ footer { padding: 30px var(--pad); display: flex; flex-direction: row; flex-wrap
   .exp-entry { grid-template-columns: 56px 1fr; gap: 16px; }
   .exp-marker { width: 56px; height: 48px; }
   .exp-body-grid { grid-template-columns: 1fr; gap: 16px; }
-  .row-entry { grid-template-columns: 1fr; gap: 16px; }
+  .row-entry { grid-template-columns: 44px 1fr; gap: 16px; }
   .row-media { margin-top: 8px; }
   .proj-grid { grid-template-columns: 1fr; }
   .skills-row { flex-direction: column; gap: 6px; }
@@ -757,7 +757,7 @@ footer { padding: 30px var(--pad); display: flex; flex-direction: row; flex-wrap
 
       <!-- Robotics Lab / Multi-Medium Quadrotor -->
       <div class="exp-entry fade d2">
-        <div class="exp-marker" style="width:180px;justify-self:end;"><img src="static/logo/robotics-lab.png" alt="Robotics Lab"></div>
+        <div class="exp-marker" style="width:clamp(88px, 11vw, 130px);justify-self:end;"><img src="static/logo/robotics-lab.png" alt="Robotics Lab"></div>
         <div class="exp-entry-content">
           <p class="exp-org"><a href="https://ed.iitm.ac.in/~robotics_lab/index.html" target="_blank">Robotics Lab, IIT Madras</a></p>
           <p class="exp-meta-line">Undergraduate Researcher · Dec 2023 to Jan 2025</p>
